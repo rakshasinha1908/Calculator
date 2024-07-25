@@ -103,7 +103,7 @@ button:hover{
 @media (max-width : 430px) {
     section{
         background-color: #FFF8E1;
-        height: 80vh;
+        height: 100vh;
         width: 100%;
         display: flex;
         justify-content: center;
