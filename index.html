@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <h1>Calculator</h1>
+            <div class="main">
+                <div class="calculate">
+                    <input type="text" placeholder="Enter" class="box" />
+                </div>
+                <div class="row">
+                    <button class="sym" data-value="%">
+                        <i class="fa-solid fa-percent "></i>
+                    </button>
+                    <button class="size sym" data-value="22/7">π</button>
+                    <button class="size sym" data-value="!">x!</button>
+                    <button data-value="x">
+                        <i class='bx bxs-tag-x'></i>
+                    </button>
+                </div>
+                <div class="row">
+                    <button class="size sym" data-value="1/x">1/x</button>
+                    <button class="size sym" data-value="²">x²</button>
+                    <button class="sym" data-value="√">
+                        <i class="fa-solid fa-square-root-variable "></i>
+                    </button>
+                    <button data-value="/">
+                        <i class="fa-solid fa-divide"></i>
+                    </button>
+                </div>
+                <div class="row">
+                    <button class="num" data-value="7">
+                        <i class="fa-solid fa-7"></i>
+                    </button>
+                    <button class="num" data-value="8">
+                        <i class="fa-solid fa-8"></i>
+                    </button>
+                    <button class="num" data-value="9">
+                        <i class="fa-solid fa-9"></i>
+                    </button>
+                    <button data-value="*">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="row">
+                    <button class="num" data-value="4">
+                        <i class="fa-solid fa-4 "></i>
+                    </button>
+                    <button class="num" data-value="5">
+                        <i class="fa-solid fa-5 "></i>
+                    </button>
+                    <button class="num" data-value="6">
+                        <i class="fa-solid fa-6 ">
+
+                        </i></button>
+                    <button data-value="-">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+                <div class="row">
+                    <button class="num" data-value="1">
+                        <i class="fa-solid fa-1 "></i>
+                    </button>
+                    <button class="num" data-value="2">
+                        <i class="fa-solid fa-2 "></i>
+                    </button>
+                    <button class="num" data-value="3">
+                        <i class="fa-solid fa-3 "></i>
+                    </button>
+                    <button data-value="+">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+                <div class="row">
+                    <button data-value="c">
+                        <i class="fa-solid fa-c"></i>
+                    </button>
+                    <button class="num" data-value="0">
+                        <i class="fa-solid fa-0"></i>
+                    </button>
+                    <button class="size" data-value=".">.</button>
+                    <button class="mark" data-value="=">
+                        <i class="fa-solid fa-equals"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    
+</body>
+</html>
+
